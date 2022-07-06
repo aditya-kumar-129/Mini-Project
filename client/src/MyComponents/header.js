@@ -41,10 +41,7 @@ export default function Header() {
             </li>
 
             <li className="nav-item ms-2 me-2">
-              <a
-                className="nav-link active"
-                href="discussion"
-              >
+              <a className="nav-link active" href="discussion">
                 <span className="nva">Discussions</span>
               </a>
             </li>
