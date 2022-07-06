@@ -81,6 +81,7 @@ export default function home() {
 
       <div className="content mt-5 mb-5 text-center">
         <h1 className="text-center mt-5 mb-5 display-3">Feed</h1>
+
         <div className="row mt-4 mb-4 ms-auto me-auto">
           <div className="container-md col-lg">
             <div className="card ms-auto me-auto">
@@ -91,19 +92,18 @@ export default function home() {
                 style={{ height: "22rem" }}
               />
               <div className="card-body">
-                <h3 className="card-title">Digital Marketing</h3>
+                <h3 className="card-title">DIET</h3>
                 <p className="card-text">
-                  The company provides digital marketing. We called online
-                  marketing. We promote things like brands,content to connect
-                  customers using social media and through the internet.
+                  Food Items You Can Easily Consumed By Sports Person are
+                  Cereal, pulses,vegetable,fruits,Milk and Milk products,Meat,
+                  Fish and Egg 7.Oil: 1.5 Tbsp/ day Olive oil, Mustard Oil.
                 </p>
-                <a href="/digitalMarketing" className="btn btn-primary mt-4">
+                <a href="/diet" className="btn btn-primary mt-4">
                   Read More
                 </a>
               </div>
             </div>
           </div>
-
           <div className="container-md col-lg">
             <div className="card ms-auto me-auto">
               <img
@@ -113,19 +113,18 @@ export default function home() {
                 style={{ height: "22rem" }}
               />
               <div className="card-body">
-                <h3 className="card-title">Brand Management</h3>
+                <h3 className="card-title">Sleep</h3>
                 <p className="card-text">
-                  The company make their use of techniques to increase the
-                  productivity and make it effective through website and media.
-                  And the company brand manager innovates our product.
+                   Recommendations for athletes range between seven and nine
+                  hours nightly17. Elite athletes are encouraged to get at least
+                  nine hours of sleep nightly.
                 </p>
-                <a href="/brandManagement" className="btn btn-primary mt-4">
+                <a href="/sleep" className="btn btn-primary mt-4">
                   Read More
                 </a>
               </div>
             </div>
           </div>
-
           <div className="container-md col-lg">
             <div className="card ms-auto me-auto">
               <img
@@ -135,20 +134,19 @@ export default function home() {
                 style={{ height: "22rem" }}
               />
               <div className="card-body">
-                <h3 className="card-title">Content Creation</h3>
+                <h3 className="card-title">Hygiene</h3>
                 <p className="card-text">
-                  The company is contributing information through media
-                  especially digital media and this company makes our content
-                  and publishes it on other websites to promote our products.
+                  Hand washing for at least 20 seconds, and showering at home
+                  before and after physical activity, is crucial for good
+                  hygiene – please encourage all those taking part to do so.
                 </p>
-                <a href="/contentCreation" className="btn btn-primary mt-4">
+                <a href="/hygiene" className="btn btn-primary mt-4">
                   Read More
                 </a>
               </div>
             </div>
           </div>
         </div>
-
         <div className="row mt-4 mb-4 ms-auto me-auto">
           <div className="container-md col-lg">
             <div className="card ms-auto me-auto">
@@ -159,14 +157,13 @@ export default function home() {
                 style={{ height: "22rem" }}
               />
               <div className="card-body">
-                <h3 className="card-title">Web Development</h3>
+                <h3 className="card-title">Harmful effects of doping</h3>
                 <p className="card-text">
-                  The company's web design is extremely good and it's maintained
-                  by the company technical team. The company technical team
-                  designs the best software with programming languages like java
-                  , c++ and python , etc..
+                  Safety first! The most important reason doping is a big deal
+                  is the fact that many of these substances can have harmful and
+                  long-lasting side effects
                 </p>
-                <a href="/webDevelopment" className="btn btn-primary mt-4">
+                <a href="/harmfulEffects" className="btn btn-primary mt-4">
                   Read More
                 </a>
               </div>
@@ -181,17 +178,13 @@ export default function home() {
                 style={{ height: "22rem" }}
               />
               <div className="card-body">
-                <h3 className="card-title">Promotional Campaigns</h3>
+                <h3 className="card-title">Motivation in sports</h3>
                 <p className="card-text">
-                  The company focus on promoting their products through hiring
-                  events,by marketing management teams,PR teams making blogs and
-                  posters for social media and company also allows advertising
-                  campaigns in the market.
+                  Motivation is the mental process that initiates, sustains or
+                  guides an athlete’s behavior like - training, approach to
+                  competition, managing adversity, performance.
                 </p>
-                <a
-                  href="/promotionalCampaigns"
-                  className="btn btn-primary mt-4"
-                >
+                <a href="/motivation" className="btn btn-primary mt-4">
                   Read More
                 </a>
               </div>
@@ -206,14 +199,13 @@ export default function home() {
                 style={{ height: "22rem" }}
               />
               <div className="card-body">
-                <h3 className="card-title">Affiliate marketing</h3>
+                <h3 className="card-title">Good habbits in sports</h3>
                 <p className="card-text">
-                  The company promotes its products to its third party and pays
-                  a commission fee to find ways to promote the company.Its
-                  increase the prominence of the company by internet through and
-                  its pay for the performance.
+                  Training, putting in the time and energy to be successful is
+                  the most obvious action. But how you do it counts. And it
+                  applies to all levels of athletes.
                 </p>
-                <a href="/affiliatedMarketing" className="btn btn-primary mt-4">
+                <a href="/goodHabits" className="btn btn-primary mt-4">
                   Read More
                 </a>
               </div>

@@ -10,6 +10,12 @@ import Footer from "./MyComponents/footer";
 import Profile from "./MyComponents/profile";
 // import Chat from './MyComponents/chat';
 import KommunicateChat from "./MyComponents/chat";
+import Diet from "./MyComponents/Feed/diet";
+import GoodHabits from "./MyComponents/Feed/goodHabits";
+import HarmfulEffects from "./MyComponents/Feed/harmfulEffects";
+import Hygiene from "./MyComponents/Feed/hygiene";
+import Motivation from "./MyComponents/Feed/motivation";
+import Sleep from "./MyComponents/Feed/sleep";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -27,6 +33,12 @@ function App() {
         {/* <Route path="/logout" exact component={Logout} /> */}
         <Route path="/profile" exact component={Profile} />
         <Route path="/signout" exact component={SignIn} />
+        <Route path="/diet" exact component={Diet} />
+        <Route path="/sleep" exact component={Sleep} />
+        <Route path="/goodHabits" exact component={GoodHabits} />
+        <Route path="/hygiene" exact component={Hygiene} />
+        <Route path="/motivation" exact component={Motivation} />
+        <Route path="/harmfulEffects" exact component={HarmfulEffects} />
       </Switch>
       <div>
         <KommunicateChat />

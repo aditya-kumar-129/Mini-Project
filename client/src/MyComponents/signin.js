@@ -19,15 +19,12 @@ export default function Signin() {
         "Content-Type": "application/json",
         Accept: "application/json",
       },
-
       body: data,
     })
       .then((data) => {
-        if (data.error) {
-          window.alert(data.error);
-        } else {
-          history.push("/home");
-        }
+        if (data.status === 422)
+          window.alert("Please re-enter right credentials");
+        else history.push("/home");
       })
       .catch((err) => {
         console.log(err);
