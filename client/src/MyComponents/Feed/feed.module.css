@@ -1,0 +1,23 @@
+.image{
+  width: 50% !important;
+  height: 50% !important;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text{
+  width: 75% !important;
+  height: 75% !important;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
