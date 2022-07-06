@@ -1,0 +1,29 @@
+/*{
+    font-family: 'Fira sans';
+   }
+   */
+  .nav-link{
+  padding-left: 0px;
+ 
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .circle{
+      border-radius: 50%;
+  }
+  #aboutus{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .nva{
+      color: darkslategray;
+  }
+  .footlogo{
+      margin: 10px;
+  }

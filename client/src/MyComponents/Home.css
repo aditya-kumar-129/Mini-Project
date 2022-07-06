@@ -1,0 +1,20 @@
+.w-100 {
+    width: 100% !important;
+    height: 70vh;
+  }
+
+/**{
+  font-family: 'Fira sans';
+}*/
+.carousel-item{
+  height: 800px;
+}
+
+.carousel-caption
+{
+  top: 40%;
+}
+
+#crtext{
+  color: white;
+}
