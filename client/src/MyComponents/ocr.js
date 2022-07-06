@@ -1,4 +1,3 @@
-// import "./ocr.css";
 import { useEffect } from "react";
 import { useState } from "react";
 import Tesseract from "tesseract.js";
@@ -51,7 +50,9 @@ function App() {
         <div className="container mt-5">
           <div className="row">
             <div className="col-md-3">
-              <p className={styles.textSearch}>Search By Medicine Name OR Product Name</p>
+              <p className={styles.textSearch}>
+                Search By Medicine Name OR Product Name
+              </p>
             </div>
             <div className="col-md-9">
               <div className="input-group">
@@ -83,35 +84,37 @@ function App() {
           </div>
         </div>
 
-        <h3 className={styles.title}>Have images?? No Worries</h3>
-        <p className={styles.text}>Please enter your scanned image</p>
-        <input type="file" onChange={onFileChange} />
-        <select
-          value={language}
-          onChange={(e) => setLanguage(e.target.value)}
-          className={styles.select}
-        >
-          <option value="eng">English</option>
-          <option value="tel">Telugu</option>
-          <option value="tamil">Tamil</option>
-          <option value="malyalam">Malyalam</option>
-          <option value="hin">Hindi</option>
-          <option value="kan">Kannada</option>
-        </select>
-        <div style={{ marginTop: 25 }}>
-          <input
-            type="submit"
-            value="Submit"
-            onClick={processImage}
-            className={styles.btn1}
-          />
+        <div className={styles.fileselecter}>
+          <h3 className={styles.title}>Have images?? No Worries</h3>
+          <p className={styles.text}>Please enter your scanned image</p>
+          <input type="file" onChange={onFileChange} />
+          <select
+            value={language}
+            onChange={(e) => setLanguage(e.target.value)}
+            className={styles.select}
+          >
+            <option value="eng">English</option>
+            <option value="tel">Telugu</option>
+            <option value="tamil">Tamil</option>
+            <option value="malyalam">Malyalam</option>
+            <option value="hin">Hindi</option>
+            <option value="kan">Kannada</option>
+          </select>
+          <div style={{ marginTop: 25 }}>
+            <input
+              type="submit"
+              value="Submit"
+              onClick={processImage}
+              className={styles.btn1}
+            />
+          </div>
+          <div>
+            <progress value={progress} max={1} />
+          </div>
+          {result !== "" && (
+            <div style={{ marginTop: 30, fontSize: 20 }}>Result: {result}</div>
+          )}
         </div>
-        <div>
-          <progress value={progress} max={1} />
-        </div>
-        {result !== "" && (
-          <div style={{ marginTop: 30, fontSize: 20 }}>Result: {result}</div>
-        )}
       </div>
     </>
   );

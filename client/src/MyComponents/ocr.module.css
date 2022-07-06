@@ -136,3 +136,6 @@ input[type="file"]::-webkit-file-upload-button{
   }
 }
 
+.fileselecter{
+  margin-left: 14rem !important;
+}
