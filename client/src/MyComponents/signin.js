@@ -24,7 +24,10 @@ export default function Signin() {
       .then((data) => {
         if (data.status === 422)
           window.alert("Please re-enter right credentials");
-        else history.push("/home");
+        else {
+          // localStorage.setItem("email", email);
+          history.push("/home");
+        }
       })
       .catch((err) => {
         console.log(err);

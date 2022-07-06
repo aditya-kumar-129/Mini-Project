@@ -43,7 +43,7 @@ export default function Header() {
             <li className="nav-item ms-2 me-2">
               <a
                 className="nav-link active"
-                href="discussion"
+                href="http://localhost:7000/discussion"
               >
                 <span className="nva">Discussions</span>
               </a>

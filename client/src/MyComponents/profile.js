@@ -2,11 +2,11 @@ import React from "react";
 import "./profile.css";
 import virat_kohli from "../myImages/virat kohli.jpg";
 const Profile = () => {
-  var authData = localStorage.getItem("authUser");
-  var authUser = JSON.parse(authData);
-  const authUserName = authUser.displayName;
-  const authUserEmail = authUser.email;
-  const userID = authUserName.split(" ")[0];
+  // var authData = localStorage.getItem("authUser");
+  // var authUser = JSON.parse(authData);
+  // const authUserName = authUser.displayName;
+  // const authUserEmail = authUser.email;
+  // const userID = authUserName.split(" ")[0];
 
   return (
     <>
@@ -16,10 +16,10 @@ const Profile = () => {
             <button class="btn btn-secondary">
               <img src={virat_kohli} height="120" width="120" alt="userImage" />
             </button>
-            <span class="name mt-3">{authUserName}</span>
-            <span class="emailId">{authUserEmail}</span>
+            {/* <span class="name mt-3">{authUserName}</span> */}
+            {/* <span class="emailId">{authUserEmail}</span> */}
             <div class="d-flex flex-row justify-content-center align-items-center gap-2">
-              <span class="user">@{userID}</span>{" "}
+              {/* <span class="user">@{userID}</span>{" "} */}
               <span>
                 <i class="fa fa-copy"></i>
               </span>

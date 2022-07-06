@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
-import fr2 from "../myImages/fr2.png";
-import img1 from "../myImages/img1.jpg";
+import fr2 from "../myImages/crousal-image1.jpg";
+import img1 from "../myImages/crousal-image3.jpg";
 import fr3 from "../myImages/fr3.jpg";
 import c1 from "../myImages/c1.jpg";
 import c2 from "../myImages/c2.jpg";
@@ -41,7 +41,7 @@ export default function home() {
               <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2219897/">
                 <img src={img1} className="d-block w-100" alt="..." />
                 <div className="carousel-caption d-none d-md-block">
-                  <h3 id="crtext">
+                  <h3 className={styles.heading}>
                     Doping in sports and its spread to at-risk populations: an
                     international review
                   </h3>
@@ -75,12 +75,8 @@ export default function home() {
           </button>
         </div>
       </div>
-
-      <br />
-      <br />
-
-      <div className="content mt-5 mb-5 text-center">
-        <h1 className="text-center mt-5 mb-5 display-3">Feed</h1>
+      <div className="content mb-5 text-center">
+        <h1 className="text-center mb-5 display-3">Feed</h1>
 
         <div className="row mt-4 mb-4 ms-auto me-auto">
           <div className="container-md col-lg">

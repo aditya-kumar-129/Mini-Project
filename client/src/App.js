@@ -16,12 +16,17 @@ import HarmfulEffects from "./MyComponents/Feed/harmfulEffects";
 import Hygiene from "./MyComponents/Feed/hygiene";
 import Motivation from "./MyComponents/Feed/motivation";
 import Sleep from "./MyComponents/Feed/sleep";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { Switch, Route ,useLocation } from "react-router-dom";
 
 function App() {
+  let location = useLocation();
+  location = location.pathname;
+  let flag = true;
+  if (location === "/signin"  || location === "/signup")
+    flag = false;
   return (
-    <BrowserRouter>
-      <Header />
+    <>
+      {flag && <Header />}
       <Switch>
         <Route path="/" exact component={SignIn} />
         <Route path="/signup" exact component={SignUp} />
@@ -44,7 +49,7 @@ function App() {
         <KommunicateChat />
       </div>
       <Footer />
-    </BrowserRouter>
+    </>
   );
 }
 
