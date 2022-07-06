@@ -28,6 +28,7 @@ function App() {
       },
     }).then(({ data: { text } }) => {
       setResult(text);
+      setSearchTerm(text);
     });
   };
 

@@ -1,6 +1,7 @@
 .w-100 {
-  width: 100% !important;
-  height: 70vh;
+  width: 92% !important;
+  height: 70%;
+  margin-left: 4rem;
 }
 
 .carousel-item{

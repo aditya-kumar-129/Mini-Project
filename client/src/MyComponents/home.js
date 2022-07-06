@@ -20,7 +20,7 @@ export default function home() {
           className="carousel slide"
           data-bs-ride="carousel"
         >
-          <div className="carousel-inner">
+          <div className="carousel-inner carouselWrapper">
             <div className="carousel-item active">
               <a href="https://theconversation.com/elite-sport-time-to-scrap-the-therapeutic-exemption-system-of-banned-medicines-89252">
                 <img src={fr2} className="d-block w-100" alt="..." />
