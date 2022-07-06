@@ -13,10 +13,7 @@ const Profile = () => {
             <span class="name mt-3">Virat Kohli</span>
             <span class="emailId">kohlivirat@gmail.com</span>
             <div class="d-flex flex-row justify-content-center align-items-center gap-2">
-              <span class="user">@Virat129</span>{" "}
-              <span>
-                <i class="fa fa-copy"></i>
-              </span>
+              <span class="user">@Virat129</span>
             </div>
             <div class="d-flex flex-row justify-content-center align-items-center mt-3">
               <span class="number">
@@ -31,7 +28,7 @@ const Profile = () => {
               </span>
             </div>
             <div class=" px-2 rounded mt-4 date ">
-              <span class="join">Joined May,2022</span>{" "}
+              <span class="join">Joined May,2022</span>
             </div>
           </div>
         </div>
