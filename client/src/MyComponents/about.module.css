@@ -1,0 +1,27 @@
+.image{
+  width: 60%;
+  height: 40% !important;
+  margin-top: 10% !important;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title{
+  font-size: 2.5rem !important;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-left: 23%;
+}
+
+.text{
+  font-size: 1.5rem !important;
+  margin-bottom: 5%;
+  margin-left: 23%;
+}
+
+.wrap{
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
