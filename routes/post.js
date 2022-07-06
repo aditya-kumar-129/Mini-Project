@@ -13,7 +13,6 @@ router.get('/allpost',requireLogin,(req,res)=>{
     }).catch(err=>{
         console.log(err)
     })
-    
 })
 
 router.get('/mypost', requireLogin, (req,res) => {

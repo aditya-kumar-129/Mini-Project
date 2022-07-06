@@ -91,7 +91,6 @@ export default function Signin() {
             <div className="status"></div>
             <span>Don't have an account yet </span>
             <a className="btn btn-dark" href="signup">
-              {" "}
               Sign Up
             </a>
           </div>
