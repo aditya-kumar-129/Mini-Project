@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 
 class KommunicateChat extends Component{
+    // eslint-disable-next-line no-useless-constructor
     constructor(props){
         super(props);
     }
+    
     componentDidMount(){
         (function(d, m){
             var kommunicateSettings = 

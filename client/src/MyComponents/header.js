@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../myImages/sportify.jpg";
+import logo from "../myImages/logo.png";
 import "./Styles.css";
 
 export default function Header() {
@@ -11,7 +11,7 @@ export default function Header() {
           aria-current="page"
           href="home"
         >
-          <img src={logo} alt="logo" width="250px" height="80px" />
+          <img src={logo} alt="..." width="250px" height="80px" />
         </a>
         <button
           className="navbar-toggler"
@@ -41,7 +41,10 @@ export default function Header() {
             </li>
 
             <li className="nav-item ms-2 me-2">
-              <a className="nav-link active" href="discussion">
+              <a
+                className="nav-link active"
+                href="discussion"
+              >
                 <span className="nva">Discussions</span>
               </a>
             </li>
