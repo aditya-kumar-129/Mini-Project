@@ -3,6 +3,10 @@ import logo from "../myImages/sportify.jpg";
 import "./Styles.css";
 
 export default function Header() {
+  const signOutHandler = () => {
+    localStorage.removeItem("authToken");
+  }
+  
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-light">
       <div className="container-fluid">
@@ -55,7 +59,7 @@ export default function Header() {
               </a>
             </li>
             <li className="nav-item ms-2 me-2">
-              <a className="nav-link active" aria-current="page" href="signin">
+              <a className="nav-link active" aria-current="page" href="signin" onClick={signOutHandler}>
                 <span className="nva">Sign Out</span>
               </a>
             </li>
