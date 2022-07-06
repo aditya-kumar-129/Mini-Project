@@ -26,6 +26,7 @@ function App() {
         <Route path="/chat" exact component={KommunicateChat} />
         <Route path="/logout" exact component={Logout} />
         <Route path="/profile" exact component={Profile} />
+        <Route path="/signout" exact component={SignIn} />
       </Switch>
       <div>
         <KommunicateChat />
