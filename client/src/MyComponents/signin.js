@@ -12,7 +12,6 @@ export default function Signin() {
       password,
       email,
     });
-    console.log(data);
     fetch("/signin", {
       method: "post",
       headers: {
@@ -24,10 +23,13 @@ export default function Signin() {
       .then((data) => {
         if (data.status === 422)
           window.alert("Please re-enter right credentials");
-        else {
-          // localStorage.setItem("email", email);
+        else
           history.push("/home");
-        }
+        return data.json();
+      })
+      .then((data) => {
+        localStorage.setItem("authToken", data.token);
+        console.log(data.token);
       })
       .catch((err) => {
         console.log(err);
