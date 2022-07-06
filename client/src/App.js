@@ -6,7 +6,7 @@ import ocr from "./MyComponents/ocr";
 import Home from "./MyComponents/home";
 import About from "./MyComponents/about";
 import Footer from "./MyComponents/footer";
-import Logout from "./MyComponents/logout";
+// import Logout from "./MyComponents/logout";
 import Profile from "./MyComponents/profile";
 // import Chat from './MyComponents/chat';
 import KommunicateChat from "./MyComponents/chat";
@@ -24,7 +24,7 @@ function App() {
         <Route path="/home" exact component={Home} />
         <Route path="/about" exact component={About} />
         <Route path="/chat" exact component={KommunicateChat} />
-        <Route path="/logout" exact component={Logout} />
+        {/* <Route path="/logout" exact component={Logout} /> */}
         <Route path="/profile" exact component={Profile} />
         <Route path="/signout" exact component={SignIn} />
       </Switch>
