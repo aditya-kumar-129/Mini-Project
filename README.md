@@ -1,4 +1,4 @@
-# SIH-2022
+# MINI PROJECT 6thSemISE
 
 # What is the problem we are trying to solve
 
