@@ -48,6 +48,8 @@ export default function Header() {
               <a
                 className="nav-link active"
                 href="http://localhost:7000/discussion"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="nva">Discussions</span>
               </a>
